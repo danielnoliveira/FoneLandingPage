@@ -1,38 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --red: #ca3b3a;
+  --black: #161616;
+  --gray: #707070;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 30px;
+  position: relative;
+}
+.header img {
+  width: 80px;
+}
+
+.header__navbar ul {
+  display: flex;
+  list-style: none;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.header__navbar ul li {
+  height: 50px;
+  position: relative;
+}
+.header__navbar ul li a {
+  text-decoration: none;
+  color: var(--gray);
+  font-weight: bold;
+  padding: 0 10px;
+  line-height: 50px;
+}
+.header__navbar ul li a:hover {
+  color: var(--black);
+}
+.header__navbar ul li span {
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background-color: #ca3b3a;
+  bottom: 0;
+  left: 0;
+  transition: width 0.2s linear;
+}
+.header__navbar ul li a:hover + span{
+  width: 100%;
+}
+.iconMenu{
+  color: var(--gray);
+  margin: 0 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.iconMenu:hover{
+  color: var(--black);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:610px){
+  .header__navbar {
+    position: absolute;
+    width: 100%;
+    top: 47.69px;
+    left: -100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 1s ease-out;
   }
-  to {
-    transform: rotate(360deg);
+  .header__navbar ul {
+    flex-direction: column;
+  }
+  .header img {
+    width: 70px;
+  }
+  .header {
+    padding: 0 15px 0 30px;
+  }
+  #input_trick:checked ~ .header__navbar{
+    left: 0;
+    opacity: 1;
   }
 }
