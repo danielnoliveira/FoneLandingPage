@@ -60,3 +60,17 @@ describe('renders menu',()=>{
     expect(icon).toBeInTheDocument();
   });
 });
+
+describe('renders main',()=>{
+  beforeEach(()=>{
+    render(<App />);
+  });
+  test('renders main div',()=>{
+    const main = screen.getByTestId("main");
+    expect(main).toBeInTheDocument();
+  });
+  test('renders index items',()=>{
+    const main = screen.getByTestId("index_items");
+    expect(main).toBeInTheDocument();
+  });
+});
