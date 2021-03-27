@@ -45,15 +45,12 @@ Seu desafio é criar uma página para compra de um fone de ouvido! O modelo fina
 
 ## Web
 
-<video width="1000" height="240" controls>
-  <source src="result/video_web_fonelandingpage.webm" type="video/webm">
-</video>
+<img src="https://gph.is/g/ZygWeQb" />
  <br />
 
 ## Mobile
-<video width="1000" height="240" controls>
-  <source src="result/video_mobile_fonelandingpage.mp4" type="video/mp4">
-</video>
+<img src="https://gph.is/g/4oXWR5P" />
+<br />
 
 
 # Techs: 
