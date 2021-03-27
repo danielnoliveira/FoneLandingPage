@@ -1,0 +1,15 @@
+.product__footer {
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media(max-width:610px) {
+    .product__footer {
+        flex-direction: column;
+    }
+    .product__footer>* {
+        margin: 8px 0;
+    }
+}

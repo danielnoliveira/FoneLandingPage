@@ -1,0 +1,20 @@
+.footer__special {
+    display: flex;
+    background-color: wheat;
+    width: 200px;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+.footer__special>i {
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.footer__special>span {
+    font-size: 12px;
+    text-align: left;
+}

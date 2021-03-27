@@ -73,7 +73,9 @@ main {
   width: 100%;
   height: calc(100vh - 54px);
   display: flex;
+  overflow-y: scroll;
 }
+
 .main__index{
   width: 5%;
   height: 100%;
@@ -85,12 +87,16 @@ main {
   flex: 1;
 }
 .horizontal__bar{
-  width: 3px;
+  width: 7px;
   border-radius: 10px;
   background-color: var(--gray);
   height: 50px;
   display: block;
   opacity: 0.4;
+  cursor: pointer;
+}
+.horizontal__bar:hover {
+  filter: brightness(120%);
 }
 .circle__index {
   border-radius: 100%;
@@ -99,12 +105,14 @@ main {
   display: block;
   background-color: var(--gray);
   opacity: 0.5;
+  transition: all 0.5s ease-in-out;
 }
 .red__color {
   background-color: var(--red);
   width: 10px;
   height: 10px;
   opacity: 1;
+  transition: all 0.5s ease-in-out;
 }
 .product__shower{
   flex: 19;
@@ -205,7 +213,7 @@ main {
   filter: brightness(120%);
 }
 .info__footer > button:hover {
-  filter: brightness(90%);
+  background-color: var(--black);
 }
 
 @media(max-width:610px){

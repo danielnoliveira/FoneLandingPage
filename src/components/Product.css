@@ -1,0 +1,23 @@
+.product__shower{
+    flex: 19;
+    display: grid;
+    grid-template-areas: 
+    'image image image info info'
+    'image image image info info'
+    'image image image info info'
+    'footer footer footer footer footer';
+}
+
+
+@media(max-width:610px){
+    .product__shower{
+      grid-template-areas: 
+      'image image image image'
+      'image image image image'
+      'image image image image'
+      'image image image image'
+      'image image image image'
+      'info info info info'
+      'footer footer footer footer';
+    }
+}

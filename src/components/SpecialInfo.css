@@ -1,0 +1,18 @@
+.info__specialInfo>h6 {
+    font-size: 0.85rem;
+}
+
+.info__specialInfo>p {
+    font-size: 12px;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+@media(max-width:610px) {
+    .info__specialInfo>h6 {
+        font-size: 0.75rem;
+    }
+    .info__specialInfo>p {
+        font-size: 10px;
+    }
+}

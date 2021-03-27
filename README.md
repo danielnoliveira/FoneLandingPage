@@ -1,8 +1,6 @@
 <br />
 <p align="center">
     <img src="https://i.imgur.com/YuUaCDv.gif" alt="Logo" width="1000">
-
-  <h3 align="center">Fone landing page by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a></h3>
  <br />
   <p align="center">
      Página para compra de um fone de ouvido
@@ -18,8 +16,8 @@
 
 * [Devchallenge](#devchallenge) 
 * [Desafio](#desafio)
+* [Resultados](#resultados)
 * [Techs](#techs)
-* [Como começar](#como-começar)
 * [Dicas](#dicas)  
   * [Cores](#cores)
   * [Modelo](#modelo)
@@ -35,23 +33,32 @@
 Seu desafio é criar uma página para compra de um fone de ouvido! O modelo final está disponível na pasta "design"
 
 ## Requisitos:
-- Sua página deverá conter um menu superior com as seções da loja (home, about, products e support)<br>
-- Sua página deverá contar as informações sobre o produto e botão para adicionar o mesmo no carrinho de compras<br>
-- Sua página deverá ser responsiva
+- Sua página deverá conter um menu superior com as seções da loja (home, about, products e support) :heavy_check_mark:<br>
+- Sua página deverá contar as informações sobre o produto e botão para adicionar o mesmo no carrinho de compras :heavy_check_mark:<br>
+- Sua página deverá ser responsiva :heavy_check_mark:
 
 ### Requisitos bônus
-- Você poderá adicionar um menu drop down para aparecer quando o usuário clicar no ícone superior direito.
-- Você poderá adicionar mais imagens do produto quando o usuário clicar nas opções (bolinhas) que aparecem ao lado esquerdo do produto
+- Você poderá adicionar um menu drop down para aparecer quando o usuário clicar no ícone superior direito. :heavy_check_mark:
+- Você poderá adicionar mais imagens do produto quando o usuário clicar nas opções (bolinhas) que aparecem ao lado esquerdo do produto. :heavy_check_mark:
+
+# Resultados
+
+## Web
+
+<video width="1000" height="240" controls>
+  <source src="result/video_web_fonelandingpage.webm" type="video/webm">
+</video>
+ <br />
+
+## Mobile
+<video width="1000" height="240" controls>
+  <source src="result/video_mobile_fonelandingpage.mp4" type="video/mp4">
+</video>
+
 
 # Techs: 
 - HTML e CSS
-- Framework ou linguagem que preferir :)
-
-# Como começar:
-1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade! Se puder, mostre seus resultado aqui no repositório também, criando uma Issue :)<br>
+- ReactJS
 
 # Dicas
 
@@ -64,7 +71,7 @@ Cinza: #707070
 O modelo final desktop e mobile está disponível na pasta `./design`
 
 ## Imagens
-As imagens utilizadas estão disponíveis na pasta `./assets`
+As imagens utilizadas estão disponíveis na pasta `./src/assets`
 
 ## Icones
 Para os ícones, recomendamos que utilize alguma biblioteca, como o Font Awesome
@@ -111,32 +118,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

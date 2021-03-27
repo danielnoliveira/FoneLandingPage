@@ -1,0 +1,17 @@
+.product__image {
+    grid-area: image;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.product__image>img {
+    width: 30vw;
+}
+
+@media(max-width:610px) {
+    .product__image>img {
+        width: 45vw;
+    }
+}
