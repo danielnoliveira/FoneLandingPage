@@ -45,11 +45,11 @@ Seu desafio é criar uma página para compra de um fone de ouvido! O modelo fina
 
 ## Web
 
-<img src="https://gph.is/g/ZygWeQb" />
+<img src="https://media.giphy.com/media/5VYxT12rVyJfc6Xzr4/giphy.gif" />
  <br />
 
 ## Mobile
-<img src="https://gph.is/g/4oXWR5P" />
+<img src="https://media.giphy.com/media/xM8fNSHnor83ij6MjB/giphy.gif" />
 <br />
 
 
